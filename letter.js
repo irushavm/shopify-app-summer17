@@ -22,12 +22,12 @@ $(function(){
       if (lastScrollEvent === 'start') {
         lastScrollEvent = 'stop';
         clearAutoScroll();
-        $('.sticky-btn').text('Start Auto Scrolling');
+        $('.sticky-btn').text('Enable Auto Scrolling');
       }
       else {
         lastScrollEvent = 'start';
         startAutoScroll();
-        $('.sticky-btn').text('Stop Auto Scrolling');
+        $('.sticky-btn').text('Disable Auto Scrolling');
       }
     });
     lastScrollEvent = 'start';

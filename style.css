@@ -1,8 +1,12 @@
 body{
+  position: absolute;
+  left:10%;
+  right:10%;
   background: #222;
   padding-top: 110px;
   font-family: "Courier";
   color: #00ff00;
+  max-width: 1000px;
 }
 
 /*.space-above {
@@ -29,8 +33,8 @@ div.stricky-footer {
   left: 0;
   right:0;
   bottom:0px;
-  height:30px;
-  padding-top:10px;
+  height:40px;
+  padding-top:5px;
   background-color: #333;
 }
 
@@ -56,7 +60,7 @@ a.sticky-btn:hover {
 }
 .type-area {
   font-size: 120%;
-  padding-bottom: 45px;
+  padding-bottom: 50px;
 }
 
 tab {
