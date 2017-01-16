@@ -2,7 +2,7 @@ $(function(){
   $(document).ready(function() {
     $(".type-area").typed({
       stringsElement: $('#type-content'),
-      typeSpeed: 0,
+      typeSpeed: -50,
       contentType: 'html',
       loop: false
     });

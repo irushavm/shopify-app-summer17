@@ -1,3 +1,4 @@
+
 body{
   position: absolute;
   left:10%;
@@ -8,10 +9,6 @@ body{
   color: #00ff00;
   max-width: 1000px;
 }
-
-/*.space-above {
-  margin: 50px;
-}*/
 
 div.sticky-bg {
   position: fixed;
@@ -38,6 +35,9 @@ div.stricky-footer {
   background-color: #333;
 }
 
+a {
+  color: #00ff00;
+}
 
 a.sticky-btn {
   position: fixed;
@@ -70,4 +70,10 @@ tab {
 anti-tab {
   padding-left: -2em;
   display: block;
+}
+
+.html-js-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
