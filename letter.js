@@ -2,7 +2,7 @@ $(function(){
   $(document).ready(function() {
     $(".type-area").typed({
       stringsElement: $('#type-content'),
-      typeSpeed: -50,
+      typeSpeed: -70,
       contentType: 'html',
       loop: false
     });
@@ -22,12 +22,14 @@ $(function(){
       if (lastScrollEvent === 'start') {
         lastScrollEvent = 'stop';
         clearAutoScroll();
-        $('.sticky-btn').text('Enable Auto Scrolling');
+        $('.backdrop').fadeOut();
+        $('.sticky-btn').text('Lock Page');
       }
       else {
         lastScrollEvent = 'start';
         startAutoScroll();
-        $('.sticky-btn').text('Disable Auto Scrolling');
+        $('.backdrop').fadeIn();
+        $('.sticky-btn').text('Unlock Page');
       }
     });
     lastScrollEvent = 'start';
